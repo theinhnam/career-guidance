@@ -12,6 +12,6 @@ public class InterestScore {
     private Long id;
     @ManyToOne
     private User user;
-    private String majorCode;
+    private Long majorCode;
     private Integer score = 0;
 }
